@@ -1,0 +1,12 @@
+s_F=0.10 A0-F0        vsMeter +0.46% [+0.21,+0.72] better 5/17 worst +1.81% (2026-06-23) pay $0 occ 30.3 human 30.9 regret 337/153 F3 0.00
+s_F=0.10 A2-A4@6.0    vsMeter -1.77% [-2.43,-1.18] better 16/17 worst +0.78% (2026-04-16) pay $1562 occ 30.4 human 30.7 regret 468/264 F3 0.02
+s_F=0.10 A2-F0        vsMeter +0.00% [+0.00,+0.00] better 0/17 worst +0.00% (2026-04-03) pay $0 occ 30.2 human 30.8 regret 338/157 F3 0.00
+s_F=0.10 A2-F1        vsMeter -2.24% [-2.94,-1.63] better 17/17 worst -0.31% (2026-05-05) pay $0 occ 31.4 human 30.6 regret 596/410 F3 0.00
+s_F=0.10 A2-F2        vsMeter -1.73% [-2.41,-1.09] better 15/17 worst +1.30% (2026-04-16) pay $1535 occ 30.4 human 30.7 regret 468/263 F3 0.00
+s_F=0.10 A2-F3        vsMeter -0.86% [-1.16,-0.59] better 15/17 worst +0.01% (2026-05-19) pay $620 occ 30.0 human 30.7 regret 377/183 F3 0.00
+s_F=0.30 A0-F0        vsMeter +0.54% [+0.21,+0.86] better 4/17 worst +2.06% (2026-05-05) pay $0 occ 30.9 human 31.1 regret 186/24 F3 0.00
+s_F=0.30 A2-A4@6.0    vsMeter -3.90% [-4.64,-3.15] better 17/17 worst -0.82% (2026-04-03) pay $4712 occ 30.9 human 30.9 regret 476/284 F3 0.02
+s_F=0.30 A2-F0        vsMeter +0.00% [+0.00,+0.00] better 0/17 worst +0.00% (2026-04-03) pay $0 occ 30.7 human 31.0 regret 186/23 F3 0.00
+s_F=0.30 A2-F1        vsMeter -5.70% [-6.68,-4.70] better 17/17 worst -0.72% (2026-04-03) pay $0 occ 33.0 human 30.9 regret 1067/944 F3 0.00
+s_F=0.30 A2-F2        vsMeter -4.02% [-4.76,-3.27] better 17/17 worst -0.82% (2026-04-03) pay $4786 occ 30.9 human 30.9 regret 474/285 F3 0.00
+s_F=0.30 A2-F3        vsMeter -2.16% [-2.81,-1.58] better 17/17 worst -0.21% (2026-05-05) pay $1475 occ 30.4 human 30.8 regret 249/60 F3 0.00

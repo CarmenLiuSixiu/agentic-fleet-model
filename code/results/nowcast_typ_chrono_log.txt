@@ -1,0 +1,33 @@
+/Users/carmenliu/Desktop/Study2026/AgenticMobility_Yu/code/src/estimate_2026.py:62: RuntimeWarning: Mean of empty slice
+  hist = np.nanmean(V[tr_i], 0)
+06:30 11s
+07:00 20s
+07:30 29s
+08:00 37s
+08:30 46s
+09:00 55s
+09:30 64s
+decision-relevant cases (|true gap| > 2 min):
+                         faster_route_correct  choice_loss_min  n_cases
+horizon_min method                                                     
+15          historical                  0.714            1.156       42
+            persistence                 0.857            0.513       42
+            world_model                 0.643            1.429       42
+30          historical                  0.830            0.777       53
+            persistence                 0.547            1.765       53
+            world_model                 0.491            2.513       53
+60          historical                  0.804            0.842       56
+            persistence                 0.661            1.345       56
+            world_model                 0.518            2.371       56
+                         speed_mae  tt_mae_min  faster_route_correct  choice_loss_min
+horizon_min method                                                                   
+15          historical      12.464       3.490                 0.613            0.700
+            persistence      6.043       1.559                 0.653            0.442
+            world_model     12.180       2.723                 0.661            0.672
+30          historical      13.247       3.753                 0.639            0.673
+            persistence     10.382       3.038                 0.541            1.008
+            world_model     14.146       3.333                 0.598            1.285
+60          historical      14.157       4.041                 0.587            0.756
+            persistence     16.036       4.840                 0.595            0.853
+            world_model     16.088       4.023                 0.554            1.342
+world model better on route TT (share of day-time cases): {15: {'persistence': 0.3709677419354839, 'historical': 0.5161290322580645}, 30: {'persistence': 0.4918032786885246, 'historical': 0.4672131147540984}, 60: {'persistence': 0.5289256198347108, 'historical': 0.4049586776859504}}

@@ -1,0 +1,42 @@
+{
+  "summary": [
+    {
+      "horizon_min": 15,
+      "speed_mae": 5.043,
+      "tt_mae_min": 1.262,
+      "faster_route_correct": 0.742,
+      "choice_loss_min": 0.285
+    },
+    {
+      "horizon_min": 30,
+      "speed_mae": 7.302,
+      "tt_mae_min": 1.854,
+      "faster_route_correct": 0.787,
+      "choice_loss_min": 0.528
+    },
+    {
+      "horizon_min": 60,
+      "speed_mae": 9.043,
+      "tt_mae_min": 2.322,
+      "faster_route_correct": 0.711,
+      "choice_loss_min": 0.619
+    }
+  ],
+  "decision_relevant": [
+    {
+      "horizon_min": 15,
+      "faster_route_correct": 0.929,
+      "choice_loss_min": 0.225
+    },
+    {
+      "horizon_min": 30,
+      "faster_route_correct": 0.792,
+      "choice_loss_min": 0.97
+    },
+    {
+      "horizon_min": 60,
+      "faster_route_correct": 0.75,
+      "choice_loss_min": 0.963
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "threshold": 6.0,
+  "summary": [
+    {
+      "s_f": 0.1,
+      "arm": "A0-F0",
+      "vs_metering_pct": 0.4642351214830107,
+      "ci90": [
+        0.20765866840901337,
+        0.7244431893783718
+      ],
+      "worst_day_pct": 1.8059114720091012,
+      "worst_day": "2026-06-23",
+      "days_better": 5,
+      "n_days": 17,
+      "pay_usd_day": 0.0,
+      "occ_avg_min": 30.329061981770025,
+      "human_avg_min": 30.92896858971423,
+      "regret_vh": 336.723913022837,
+      "regret_decisive_vh": 152.63064098007538,
+      "f3_share": 0.0,
+      "vs_no_control_pct": 0.0
+    },
+    {
+      "s_f": 0.1,
+      "arm": "A2-A4@6.0",
+      "vs_metering_pct": -1.7746628172898897,
+      "ci90": [
+        -2.4314444040407306,
+        -1.1754799682829458
+      ],
+      "worst_day_pct": 0.7793666811348011,
+      "worst_day": "2026-04-16",
+      "days_better": 16,
+      "n_days": 17,
+      "pay_usd_day": 1562.205499258943,
+      "occ_avg_min": 30.41123477969913,
+      "human_avg_min": 30.653807800139436,
+      "regret_vh": 468.4078877515344,
+      "regret_decisive_vh": 264.3658463937395,
+      "f3_share": 0.016339869281045753,
+      "vs_no_control_pct": -2.2301045222876628
+    },
+    {
+      "s_f": 0.1,
+      "arm": "A2-F0",
+      "vs_metering_pct": 0.0,
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "worst_day_pct": 0.0,
+      "worst_day": "2026-04-03",
+      "days_better": 0,
+      "n_days": 17,
+      "pay_usd_day": 0.0,
+      "occ_avg_min": 30.220442859953863,
+      "human_avg_min": 30.830565184788497,
+      "regret_vh": 338.1136851558309,
+      "regret_decisive_vh": 157.46843229672487,
+      "f3_share": 0.0,
+      "vs_no_control_pct": -0.4577068470210023
+    },
+    {
+      "s_f": 0.1,
+      "arm": "A2-F1",
+      "vs_metering_pct": -2.2437162152432504,
+      "ci90": [
+        -2.937835895447085,
+        -1.628966056085962
+      ],
+      "worst_day_pct": -0.3112042199544738,
+      "worst_day": "2026-05-05",
+      "days_better": 17,
+      "n_days": 17,
+      "pay_usd_day": 0.0,
+      "occ_avg_min": 31.350606492005483,
+      "human_avg_min": 30.618731530063897,
+      "regret_vh": 596.1798605495742,
+      "regret_decisive_vh": 410.4795740387019,
+      "f3_share": 0.0,
+      "vs_no_control_pct": -2.69691573953402
+    },
+    {
+      "s_f": 0.1,
+      "arm": "A2-F2",
+      "vs_metering_pct": -1.7259131318305054,
+      "ci90": [
+        -2.406734956910052,
+        -1.0893437084078452
+      ],
+      "worst_day_pct": 1.3018794803785756,
+      "worst_day": "2026-04-16",
+      "days_better": 15,
+      "n_days": 17,
+      "pay_usd_day": 1534.7713936284872,
+      "occ_avg_min": 30.392575701066757,
+      "human_avg_min": 30.65884101597256,
+      "regret_vh": 467.54073378647746,
+      "regret_decisive_vh": 263.14607795722344,
+      "f3_share": 0.0,
+      "vs_no_control_pct": -2.181702653450912
+    },
+    {
+      "s_f": 0.1,
+      "arm": "A2-F3",
+      "vs_metering_pct": -0.864136488639971,
+      "ci90": [
+        -1.1606637050834263,
+        -0.5864954596091255
+      ],
+      "worst_day_pct": 0.013887999933170346,
+      "worst_day": "2026-05-19",
+      "days_better": 15,
+      "n_days": 17,
+      "pay_usd_day": 620.1899136107385,
+      "occ_avg_min": 30.024576700320036,
+      "human_avg_min": 30.7141735255822,
+      "regret_vh": 376.55486017027835,
+      "regret_decisive_vh": 182.56277888837982,
+      "f3_share": 0.0,
+      "vs_no_control_pct": -1.3206074928192084
+    },
+    {
+      "s_f": 0.3,
+      "arm": "A0-F0",
+      "vs_metering_pct": 0.5442429567525305,
+      "ci90": [
+        0.21221510766827545,
+        0.863163524803381
+      ],
+      "worst_day_pct": 2.0637608080880705,
+      "worst_day": "2026-05-05",
+      "days_better": 4,
+      "n_days": 17,
+      "pay_usd_day": 0.0,
+      "occ_avg_min": 30.855361087891744,
+      "human_avg_min": 31.144088685392685,
+      "regret_vh": 185.67556526170836,
+      "regret_decisive_vh": 24.43596456681981,
+      "f3_share": 0.0,
+      "vs_no_control_pct": 0.0
+    },
+    {
+      "s_f": 0.3,
+      "arm": "A2-A4@6.0",
+      "vs_metering_pct": -3.900021616797032,
+      "ci90": [
+        -4.6448039144416144,
+        -3.153155784513235
+      ],
+      "worst_day_pct": -0.8187518762927053,
+      "worst_day": "2026-04-03",
+      "days_better": 17,
+      "n_days": 17,
+      "pay_usd_day": 4711.94714277691,
+      "occ_avg_min": 30.901953597835472,
+      "human_avg_min": 30.85839318809285,
+      "regret_vh": 476.36074303466523,
+      "regret_decisive_vh": 284.2654173777384,
+      "f3_share": 0.022875816993464054,
+      "vs_no_control_pct": -4.416361721221783
+    },
+    {
+      "s_f": 0.3,
+      "arm": "A2-F0",
+      "vs_metering_pct": 0.0,
+      "ci90": [
+        0.0,
+        0.0
+      ],
+      "worst_day_pct": 0.0,
+      "worst_day": "2026-04-03",
+      "days_better": 0,
+      "n_days": 17,
+      "pay_usd_day": 0.0,
+      "occ_avg_min": 30.705821710985834,
+      "human_avg_min": 31.001591883224336,
+      "regret_vh": 185.90084195041794,
+      "regret_decisive_vh": 23.269414640524808,
+      "f3_share": 0.0,
+      "vs_no_control_pct": -0.5348020172409327
+    },
+    {
+      "s_f": 0.3,
+      "arm": "A2-F1",
+      "vs_metering_pct": -5.698717723471316,
+      "ci90": [
+        -6.675801992936905,
+        -4.701219759099134
+      ],
+      "worst_day_pct": -0.7222683928371649,
+      "worst_day": "2026-04-03",
+      "days_better": 17,
+      "n_days": 17,
+      "pay_usd_day": 0.0,
+      "occ_avg_min": 32.95821302781092,
+      "human_avg_min": 30.9254427612963,
+      "regret_vh": 1067.2632256228449,
+      "regret_decisive_vh": 944.3258576866458,
+      "f3_share": 0.0,
+      "vs_no_control_pct": -6.202579110846878
+    },
+    {
+      "s_f": 0.3,
+      "arm": "A2-F2",
+      "vs_metering_pct": -4.01563201931253,
+      "ci90": [
+        -4.757141181281595,
+        -3.266184706591402
+      ],
+      "worst_day_pct": -0.8187518762927053,
+      "worst_day": "2026-04-03",
+      "days_better": 17,
+      "n_days": 17,
+      "pay_usd_day": 4786.342592363712,
+      "occ_avg_min": 30.94179319304617,
+      "human_avg_min": 30.883184642349555,
+      "regret_vh": 473.6602793874635,
+      "regret_decisive_vh": 284.76835249802645,
+      "f3_share": 0.0,
+      "vs_no_control_pct": -4.5300851651447385
+    },
+    {
+      "s_f": 0.3,
+      "arm": "A2-F3",
+      "vs_metering_pct": -2.1606514785074795,
+      "ci90": [
+        -2.8108255801864,
+        -1.578525486023607
+      ],
+      "worst_day_pct": -0.20843280223512228,
+      "worst_day": "2026-05-05",
+      "days_better": 17,
+      "n_days": 17,
+      "pay_usd_day": 1475.4244042849728,
+      "occ_avg_min": 30.367631597610345,
+      "human_avg_min": 30.793605834349332,
+      "regret_vh": 249.1964412639063,
+      "regret_decisive_vh": 60.440060168504715,
+      "f3_share": 0.0,
+      "vs_no_control_pct": -2.6907893839892467
+    }
+  ]
+}

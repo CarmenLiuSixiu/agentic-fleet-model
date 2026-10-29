@@ -1,0 +1,2 @@
+5 days 19 ML stations 73 measured share 0.999 ramps 39
+6 days 22 ML stations 73 measured share 0.778 ramps 34

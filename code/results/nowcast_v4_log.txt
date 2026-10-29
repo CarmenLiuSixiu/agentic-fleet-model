@@ -1,0 +1,18 @@
+06:30 13s
+07:00 73s
+07:30 105s
+08:00 153s
+08:30 227s
+09:00 261s
+09:30 295s
+                         speed_mae  tt_mae_min  faster_route_correct
+horizon_min method                                                  
+15          historical      12.689       5.630                 0.909
+            persistence      6.840       2.099                 0.925
+            world_model     16.311       3.120                 0.831
+30          historical      13.224       5.891                 0.916
+            persistence     10.737       3.573                 0.899
+            world_model     18.212       3.774                 0.877
+60          historical      13.797       6.148                 0.909
+            persistence     17.367       6.418                 0.854
+            world_model     20.719       5.016                 0.847
