@@ -1,0 +1,15 @@
+# environments and caches
+code/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# private correspondence and drafts (not for the repo)
+writing/
+# raw data stays outside the repo (see data/README.md)
+*.parquet
+*.h5
+*.gz
+code/nyc/fetch_log.txt
+# large binary results (regenerable; may be shared separately)
+code/results/*.npz
+code/results/*.pt
