@@ -1,0 +1,199 @@
+{
+ "tts_vs_A0": [
+  {
+   "agent": "A0",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": 0.0,
+   "ci90_lo": 0.0,
+   "ci90_hi": 0.0
+  },
+  {
+   "agent": "A0",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": 0.0,
+   "ci90_lo": 0.0,
+   "ci90_hi": 0.0
+  },
+  {
+   "agent": "A0",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": 0.0,
+   "ci90_lo": 0.0,
+   "ci90_hi": 0.0
+  },
+  {
+   "agent": "A1",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": 1.4990123661910377,
+   "ci90_lo": 1.339810875653515,
+   "ci90_hi": 1.656959952906901
+  },
+  {
+   "agent": "A1",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": 1.516660988626026,
+   "ci90_lo": 1.259010839124317,
+   "ci90_hi": 1.7743111381277352
+  },
+  {
+   "agent": "A1",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": 1.4813637437560494,
+   "ci90_lo": 1.2638345970372065,
+   "ci90_hi": 1.68686454121135
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": -0.05586136936453685,
+   "ci90_lo": -0.1673215824552479,
+   "ci90_hi": 0.02843708236863702
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": -0.02791631921603696,
+   "ci90_lo": -0.11766416365788701,
+   "ci90_hi": 0.036231886697026094
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": -0.08380641951303675,
+   "ci90_lo": -0.31179163453955894,
+   "ci90_hi": 0.04777951674556352
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.3,
+   "days": "all",
+   "tts_change_pct": -9.3348677234758,
+   "ci90_lo": -11.576626417105695,
+   "ci90_hi": -7.4262863206432055
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.3,
+   "days": "normal",
+   "tts_change_pct": -9.030255467228185,
+   "ci90_lo": -10.70306279697239,
+   "ci90_hi": -7.3477597456479415
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.3,
+   "days": "incident",
+   "tts_change_pct": -9.639479979723415,
+   "ci90_lo": -14.028930829024755,
+   "ci90_hi": -6.186333370891701
+  },
+  {
+   "agent": "A2",
+   "level": 1,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": -1.9984148314262864,
+   "ci90_lo": -2.977025173503333,
+   "ci90_hi": -1.0913258671015411
+  },
+  {
+   "agent": "A2",
+   "level": 1,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": -1.7796062583547438,
+   "ci90_lo": -3.8649626258017933,
+   "ci90_hi": -0.08253504014993625
+  },
+  {
+   "agent": "A2",
+   "level": 1,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": -2.2172234044978287,
+   "ci90_lo": -2.8240463779955993,
+   "ci90_hi": -1.629818128145286
+  },
+  {
+   "agent": "A2",
+   "level": 2,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": 4.5254342231884905,
+   "ci90_lo": 3.2284676809801707,
+   "ci90_hi": 5.6527697546526525
+  },
+  {
+   "agent": "A2",
+   "level": 2,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": 3.109420097498614,
+   "ci90_lo": 1.1490440872797512,
+   "ci90_hi": 4.951390518558894
+  },
+  {
+   "agent": "A2",
+   "level": 2,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": 5.941448348878367,
+   "ci90_lo": 5.061571217791889,
+   "ci90_hi": 6.661419577884205
+  },
+  {
+   "agent": "A2",
+   "level": 3,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": 1.1539570217951194,
+   "ci90_lo": 0.639836101990874,
+   "ci90_hi": 1.7183264792964792
+  },
+  {
+   "agent": "A2",
+   "level": 3,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": 1.0203428206453315,
+   "ci90_lo": 0.4947787502525035,
+   "ci90_hi": 1.5459068910381597
+  },
+  {
+   "agent": "A2",
+   "level": 3,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": 1.2875712229449072,
+   "ci90_lo": 0.3062795789423748,
+   "ci90_hi": 2.262654101959744
+  },
+  {
+   "agent": "A2",
+   "level": 3,
+   "kappa": 0.3,
+   "days": "all",
+   "tts_change_pct": -8.706722178679572,
+   "ci90_lo": -10.833485638112903,
+   "ci90_hi": -6

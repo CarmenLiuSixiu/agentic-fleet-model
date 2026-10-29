@@ -1,0 +1,55 @@
+{'iter': 0, 'rmse_vis': 27.457223892211914, 'mae_vis': 20.98079490661621, 'sec': 1.2}
+{'iter': 10, 'rmse_vis': 21.891984939575195, 'mae_vis': 15.591408729553223, 'sec': 12.7}
+{'iter': 20, 'rmse_vis': 21.128318786621094, 'mae_vis': 14.929596900939941, 'sec': 24.2}
+{'iter': 30, 'rmse_vis': 19.940818786621094, 'mae_vis': 14.075300216674805, 'sec': 35.9}
+{'iter': 40, 'rmse_vis': 19.04047966003418, 'mae_vis': 13.243892669677734, 'sec': 47.3}
+{'iter': 50, 'rmse_vis': 18.55565071105957, 'mae_vis': 12.87632942199707, 'sec': 58.7}
+{'iter': 60, 'rmse_vis': 18.171979904174805, 'mae_vis': 12.558059692382812, 'sec': 71.1}
+{'iter': 70, 'rmse_vis': 17.90641975402832, 'mae_vis': 12.311320304870605, 'sec': 84.0}
+{'iter': 80, 'rmse_vis': 17.696842193603516, 'mae_vis': 12.14628791809082, 'sec': 95.6}
+{'iter': 90, 'rmse_vis': 17.496837615966797, 'mae_vis': 11.98974609375, 'sec': 107.2}
+{'iter': 100, 'rmse_vis': 17.26491928100586, 'mae_vis': 11.795570373535156, 'sec': 118.8}
+{'iter': 110, 'rmse_vis': 17.06243896484375, 'mae_vis': 11.632538795471191, 'sec': 130.5}
+{'iter': 120, 'rmse_vis': 16.913827896118164, 'mae_vis': 11.561359405517578, 'sec': 142.2}
+{'iter': 130, 'rmse_vis': 16.764747619628906, 'mae_vis': 11.49658203125, 'sec': 153.8}
+{'iter': 140, 'rmse_vis': 16.622802734375, 'mae_vis': 11.430442810058594, 'sec': 165.5}
+{'iter': 150, 'rmse_vis': 16.515268325805664, 'mae_vis': 11.420960426330566, 'sec': 177.0}
+{'iter': 160, 'rmse_vis': 16.398502349853516, 'mae_vis': 11.379109382629395, 'sec': 188.6}
+{'iter': 170, 'rmse_vis': 16.257671356201172, 'mae_vis': 11.303187370300293, 'sec': 200.1}
+{'iter': 180, 'rmse_vis': 16.2965145111084, 'mae_vis': 11.459792137145996, 'sec': 211.7}
+{'iter': 190, 'rmse_vis': 16.13395118713379, 'mae_vis': 11.374129295349121, 'sec': 223.2}
+{'iter': 200, 'rmse_vis': 15.964524269104004, 'mae_vis': 11.243507385253906, 'sec': 234.7}
+{'iter': 210, 'rmse_vis': 15.817859649658203, 'mae_vis': 11.157235145568848, 'sec': 246.4}
+{'iter': 220, 'rmse_vis': 15.747138977050781, 'mae_vis': 11.148049354553223, 'sec': 258.0}
+{'iter': 230, 'rmse_vis': 15.61289119720459, 'mae_vis': 11.054595947265625, 'sec': 269.5}
+{'iter': 240, 'rmse_vis': 15.541398048400879, 'mae_vis': 11.054372787475586, 'sec': 281.3}
+{'iter': 250, 'rmse_vis': 15.568214416503906, 'mae_vis': 11.167901992797852, 'sec': 293.0}
+{'iter': 260, 'rmse_vis': 16.877573013305664, 'mae_vis': 12.35305118560791, 'sec': 304.7}
+{'iter': 270, 'rmse_vis': 16.56151580810547, 'mae_vis': 12.184197425842285, 'sec': 316.5}
+{'iter': 280, 'rmse_vis': 15.572175979614258, 'mae_vis': 11.501367568969727, 'sec': 328.2}
+{'iter': 290, 'rmse_vis': 15.358268737792969, 'mae_vis': 11.376145362854004, 'sec': 339.9}
+{'iter': 299, 'rmse_vis': 15.146442413330078, 'mae_vis': 11.19285774230957, 'sec': 350.4}
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate.py:107: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  "vf": p["vf"].tolist(), "b0": float(p["b0"]), "b1": float(p["b1"]),
+{
+  "n_train_days": 82,
+  "n_test_days": 44,
+  "n_detectors": 77,
+  "n_hidden": 23,
+  "wm_mae_visible_train": 11.194920220312046,
+  "wm_mae_hidden_train": 15.5629570548854,
+  "wm_mae_visible_test": 13.258333972351338,
+  "wm_mae_hidden_test": 17.479882753933346,
+  "interp_mae_hidden_train": 6.691949438387782,
+  "interp_mae_hidden_test": 7.130973917152433,
+  "vf": [
+    93.4071273803711,
+    97.13614654541016
+  ],
+  "b0": 0.7154450416564941,
+  "b1": 0.19727058708667755,
+  "cap_mult_min": 0.9534773230552673,
+  "cap_mult_max": 1.099480152130127,
+  "seconds": 350.6
+}

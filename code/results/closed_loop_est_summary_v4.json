@@ -1,0 +1,107 @@
+[
+  {
+    "level": 0,
+    "tts_change_est_pct": 0.4448807942756279,
+    "ci90": [
+      0.12600138257811327,
+      0.753500803993673
+    ],
+    "tts_change_oracle_pct": 0.07091751970311676,
+    "est_minus_oracle_pct": 0.3739632745725111,
+    "gap_ci90": [
+      -0.01736450535569155,
+      0.7633083767915816
+    ],
+    "retained_share": null,
+    "days_est_beats_A2L0_est": null,
+    "worst_ramp_wait_est": 6.50308289429024,
+    "worst_ramp_wait_oracle": 6.607355196938189,
+    "spend_est": 0.0,
+    "state_err_vehkm": 6.1165033025667075,
+    "est_sec": 3.204052248868076
+  },
+  {
+    "level": 1,
+    "tts_change_est_pct": 6.159984525897135,
+    "ci90": [
+      4.2651014540523615,
+      8.142290029046578
+    ],
+    "tts_change_oracle_pct": 5.16525844166372,
+    "est_minus_oracle_pct": 0.9947260842334158,
+    "gap_ci90": [
+      0.19673208756034194,
+      1.7872796743929604
+    ],
+    "retained_share": null,
+    "days_est_beats_A2L0_est": 0,
+    "worst_ramp_wait_est": 3.734817723761296,
+    "worst_ramp_wait_oracle": 4.081169995203423,
+    "spend_est": 0.0,
+    "state_err_vehkm": 5.80771190362672,
+    "est_sec": 3.204108678210866
+  },
+  {
+    "level": 2,
+    "tts_change_est_pct": -5.553829947785153,
+    "ci90": [
+      -9.222697731534845,
+      -2.048268894974207
+    ],
+    "tts_change_oracle_pct": -6.703343479061033,
+    "est_minus_oracle_pct": 1.1495135312758795,
+    "gap_ci90": [
+      0.6169734481671182,
+      1.6932339388288724
+    ],
+    "retained_share": 0.8285163911312959,
+    "days_est_beats_A2L0_est": 8,
+    "worst_ramp_wait_est": 8.650992147329827,
+    "worst_ramp_wait_oracle": 8.054483565746507,
+    "spend_est": 0.0,
+    "state_err_vehkm": 5.602327558149894,
+    "est_sec": 3.16748486107046
+  },
+  {
+    "level": 3,
+    "tts_change_est_pct": -3.0089693553395103,
+    "ci90": [
+      -5.883872123132118,
+      -0.2988872999397216
+    ],
+    "tts_change_oracle_pct": -4.154489402253329,
+    "est_minus_oracle_pct": 1.1455200469138185,
+    "gap_ci90": [
+      0.5388379878170291,
+      1.7515258060196888
+    ],
+    "retained_share": 0.7242693539445528,
+    "days_est_beats_A2L0_est": 7,
+    "worst_ramp_wait_est": 7.915824211011977,
+    "worst_ramp_wait_oracle": 7.176029713509402,
+    "spend_est": 23026.150172239097,
+    "state_err_vehkm": 6.8357617951308685,
+    "est_sec": 3.6268383990634567
+  },
+  {
+    "level": 4,
+    "tts_change_est_pct": -4.188586105139007,
+    "ci90": [
+      -7.0547197333388025,
+      -1.5277550330198162
+    ],
+    "tts_change_oracle_pct": -4.074619917123192,
+    "est_minus_oracle_pct": -0.11396618801581411,
+    "gap_ci90": [
+      -0.7264434027765463,
+      0.4171624448163922
+    ],
+    "retained_share": 1.0279697714962035,
+    "days_est_beats_A2L0_est": 8,
+    "worst_ramp_wait_est": 7.372369280475371,
+    "worst_ramp_wait_oracle": 7.518900554814314,
+    "spend_est": 22989.29051549359,
+    "state_err_vehkm": 6.686130210881433,
+    "est_sec": 3.7525414000857955
+  }
+]

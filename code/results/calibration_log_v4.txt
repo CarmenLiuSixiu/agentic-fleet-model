@@ -1,0 +1,75 @@
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:48: RuntimeWarning: Mean of empty slice
+  out["Qtr"] = np.nanmean([day_window(flq, d).values for d in tr if len(day_window(flq, d)) == 72], 0)
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:49: RuntimeWarning: Mean of empty slice
+  out["Qte"] = np.nanmean([day_window(flq, d).values for d in te if len(day_window(flq, d)) == 72], 0)
+/Users/carmenliu/Desktop/Study2026/pems_agentic/.venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:117: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  qmax = max(qmax, float((q / storage).max()))
+{'iter': 0, 'tau': 25.0, 'mae_v_vis': 30.657215118408203, 'mae_q_vis': 1045.6064453125, 'max_q_over_storage': 32.01, 'sec': 1.3}
+{'iter': 10, 'tau': 23.6, 'mae_v_vis': 17.268617630004883, 'mae_q_vis': 1091.763671875, 'max_q_over_storage': 4.84, 'sec': 13.5}
+{'iter': 20, 'tau': 22.2, 'mae_v_vis': 14.178318977355957, 'mae_q_vis': 1051.853759765625, 'max_q_over_storage': 0.6, 'sec': 25.8}
+{'iter': 30, 'tau': 20.8, 'mae_v_vis': 12.764608383178711, 'mae_q_vis': 936.7169799804688, 'max_q_over_storage': 0.51, 'sec': 38.0}
+{'iter': 40, 'tau': 19.4, 'mae_v_vis': 12.76320743560791, 'mae_q_vis': 859.293212890625, 'max_q_over_storage': 1.04, 'sec': 50.3}
+{'iter': 50, 'tau': 18.1, 'mae_v_vis': 12.65902328491211, 'mae_q_vis': 793.38916015625, 'max_q_over_storage': 4.61, 'sec': 62.6}
+{'iter': 60, 'tau': 16.7, 'mae_v_vis': 11.904471397399902, 'mae_q_vis': 777.2172241210938, 'max_q_over_storage': 3.67, 'sec': 74.9}
+{'iter': 70, 'tau': 15.3, 'mae_v_vis': 11.841226577758789, 'mae_q_vis': 753.5191650390625, 'max_q_over_storage': 4.68, 'sec': 87.1}
+{'iter': 80, 'tau': 13.9, 'mae_v_vis': 11.632104873657227, 'mae_q_vis': 744.7760620117188, 'max_q_over_storage': 3.93, 'sec': 99.4}
+{'iter': 90, 'tau': 12.5, 'mae_v_vis': 11.842524528503418, 'mae_q_vis': 725.6056518554688, 'max_q_over_storage': 3.93, 'sec': 111.6}
+{'iter': 100, 'tau': 11.1, 'mae_v_vis': 11.880027770996094, 'mae_q_vis': 711.1046752929688, 'max_q_over_storage': 3.96, 'sec': 123.9}
+{'iter': 110, 'tau': 9.7, 'mae_v_vis': 12.328927040100098, 'mae_q_vis': 698.8619995117188, 'max_q_over_storage': 4.08, 'sec': 136.2}
+{'iter': 120, 'tau': 8.3, 'mae_v_vis': 12.358226776123047, 'mae_q_vis': 699.60986328125, 'max_q_over_storage': 3.56, 'sec': 148.5}
+{'iter': 130, 'tau': 6.9, 'mae_v_vis': 12.175993919372559, 'mae_q_vis': 682.8175048828125, 'max_q_over_storage': 3.4, 'sec': 160.8}
+{'iter': 140, 'tau': 5.6, 'mae_v_vis': 12.408060073852539, 'mae_q_vis': 673.7009887695312, 'max_q_over_storage': 2.95, 'sec': 173.0}
+{'iter': 150, 'tau': 4.2, 'mae_v_vis': 12.518349647521973, 'mae_q_vis': 662.5619506835938, 'max_q_over_storage': 2.94, 'sec': 185.3}
+{'iter': 160, 'tau': 2.8, 'mae_v_vis': 12.465095520019531, 'mae_q_vis': 650.8914794921875, 'max_q_over_storage': 3.12, 'sec': 197.6}
+{'iter': 170, 'tau': 2.0, 'mae_v_vis': 12.519046783447266, 'mae_q_vis': 645.378173828125, 'max_q_over_storage': 5.07, 'sec': 209.9}
+{'iter': 180, 'tau': 2.0, 'mae_v_vis': 12.357051849365234, 'mae_q_vis': 642.6470947265625, 'max_q_over_storage': 2.62, 'sec': 222.1}
+{'iter': 190, 'tau': 2.0, 'mae_v_vis': 12.37723445892334, 'mae_q_vis': 632.1336669921875, 'max_q_over_storage': 2.79, 'sec': 234.4}
+{'iter': 200, 'tau': 2.0, 'mae_v_vis': 12.337745666503906, 'mae_q_vis': 627.3152465820312, 'max_q_over_storage': 2.95, 'sec': 246.7}
+{'iter': 210, 'tau': 2.0, 'mae_v_vis': 12.128236770629883, 'mae_q_vis': 624.6173095703125, 'max_q_over_storage': 2.38, 'sec': 259.0}
+{'iter': 220, 'tau': 2.0, 'mae_v_vis': 12.152169227600098, 'mae_q_vis': 620.25830078125, 'max_q_over_storage': 2.74, 'sec': 271.2}
+{'iter': 230, 'tau': 2.0, 'mae_v_vis': 12.106047630310059, 'mae_q_vis': 618.4739379882812, 'max_q_over_storage': 2.29, 'sec': 283.6}
+{'iter': 240, 'tau': 2.0, 'mae_v_vis': 12.278873443603516, 'mae_q_vis': 615.8025512695312, 'max_q_over_storage': 2.61, 'sec': 295.8}
+{'iter': 250, 'tau': 2.0, 'mae_v_vis': 12.480639457702637, 'mae_q_vis': 615.2094116210938, 'max_q_over_storage': 2.21, 'sec': 308.2}
+{'iter': 260, 'tau': 2.0, 'mae_v_vis': 11.956730842590332, 'mae_q_vis': 623.373046875, 'max_q_over_storage': 0.88, 'sec': 320.4}
+{'iter': 270, 'tau': 2.0, 'mae_v_vis': 11.55213451385498, 'mae_q_vis': 615.6643676757812, 'max_q_over_storage': 4.82, 'sec': 332.7}
+{'iter': 280, 'tau': 2.0, 'mae_v_vis': 11.654820442199707, 'mae_q_vis': 610.2396240234375, 'max_q_over_storage': 3.11, 'sec': 345.0}
+{'iter': 290, 'tau': 2.0, 'mae_v_vis': 11.650615692138672, 'mae_q_vis': 603.6779174804688, 'max_q_over_storage': 2.72, 'sec': 357.2}
+{'iter': 299, 'tau': 2.0, 'mae_v_vis': 11.580404281616211, 'mae_q_vis': 598.8067626953125, 'max_q_over_storage': 1.43, 'sec': 368.3}
+{
+  "n_train_days": 82,
+  "n_test_days": 44,
+  "n_hidden": 23,
+  "speed_mae": {
+    "wm_vis_train": 11.675030839369727,
+    "wm_vis_test": 13.265181960284382,
+    "wm_hidden_test": 17.85464101462625,
+    "interp_hidden_test": 7.130973917152433
+  },
+  "flow_mae_vehh": {
+    "wm_vis_train": 597.328636131983,
+    "wm_vis_test": 650.6602234750424,
+    "wm_hidden_test": 924.2231615156159,
+    "interp_hidden_test": 851.0107390736009
+  },
+  "route_tt_mae_min_test": {
+    "wm": {
+      "A": 1.4430685062756412,
+      "B": 2.6519975808292324
+    }
+  },
+  "vf": [
+    101.85877227783203,
+    100.43531799316406
+  ],
+  "b0": -0.7545189261436462,
+  "b1": 0.05695058032870293,
+  "max_ramp_queue_over_storage_no_control": 2.120147466659546,
+  "cap_mult_range": [
+    0.6461602449417114,
+    1.2218965291976929
+  ],
+  "seconds": 368.5
+}

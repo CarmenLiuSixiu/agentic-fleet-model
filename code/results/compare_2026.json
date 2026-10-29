@@ -1,0 +1,65 @@
+{
+  "2017": {
+    "n_days": 126,
+    "B_faster_share": 0.8935185185185185,
+    "flip_days_06_10": 0.6428571428571429,
+    "peak_median_tt_A": [
+      36.2,
+      "08:00"
+    ],
+    "freeflow_tt_A": 16.8,
+    "peak_median_tt_B": [
+      32.5,
+      "08:35"
+    ],
+    "freeflow_tt_B": 15.2
+  },
+  "2026_04_as_published": {
+    "n_days": 22,
+    "B_faster_share": 0.7891414141414141,
+    "flip_days_06_10": 0.8636363636363636,
+    "peak_median_tt_A": [
+      28.0,
+      "08:45"
+    ],
+    "freeflow_tt_A": 16.7,
+    "peak_median_tt_B": [
+      25.8,
+      "07:55"
+    ],
+    "freeflow_tt_B": 15.2
+  },
+  "2026_04_measured_only": {
+    "n_days": 22,
+    "B_faster_share": 0.7638888888888888,
+    "flip_days_06_10": 0.9090909090909091,
+    "peak_median_tt_A": [
+      28.6,
+      "07:50"
+    ],
+    "freeflow_tt_A": 16.6,
+    "peak_median_tt_B": [
+      26.4,
+      "08:50"
+    ],
+    "freeflow_tt_B": 14.9
+  },
+  "station_quality_2026_04": {
+    "A": {
+      "stations_2017": 34,
+      "present_2026": 31,
+      "measured_ge_50pct_of_AM_rows": 20,
+      "never_measured": 9
+    },
+    "B": {
+      "stations_2017": 43,
+      "present_2026": 39,
+      "measured_ge_50pct_of_AM_rows": 22,
+      "never_measured": 17
+    }
+  },
+  "measured_only_fallback_slots": [
+    550,
+    3168
+  ]
+}

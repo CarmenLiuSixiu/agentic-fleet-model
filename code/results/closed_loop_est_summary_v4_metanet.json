@@ -1,0 +1,107 @@
+[
+  {
+    "level": 0,
+    "tts_change_est_pct": -0.11425647924502502,
+    "ci90": [
+      -0.25778109765770235,
+      0.010662256589738267
+    ],
+    "tts_change_oracle_pct": -0.05586136936453876,
+    "est_minus_oracle_pct": -0.05839510988048626,
+    "gap_ci90": [
+      -0.21777690488708998,
+      0.08680704277940554
+    ],
+    "retained_share": null,
+    "days_est_beats_A2L0_est": null,
+    "worst_ramp_wait_est": 1.5653134766898595,
+    "worst_ramp_wait_oracle": 0.8629645380558193,
+    "spend_est": 0.0,
+    "state_err_vehkm": 8.890562137961389,
+    "est_sec": 3.04909417737614
+  },
+  {
+    "level": 1,
+    "tts_change_est_pct": -2.096788519615714,
+    "ci90": [
+      -3.1039255245781097,
+      -1.1813257176241623
+    ],
+    "tts_change_oracle_pct": -1.9984148314262882,
+    "est_minus_oracle_pct": -0.0983736881894262,
+    "gap_ci90": [
+      -0.24051059580487047,
+      0.045194472472482664
+    ],
+    "retained_share": 1.049225859737648,
+    "days_est_beats_A2L0_est": 8,
+    "worst_ramp_wait_est": 1.84675734856866,
+    "worst_ramp_wait_oracle": 1.1294831044901787,
+    "spend_est": 0.0,
+    "state_err_vehkm": 8.347908734778564,
+    "est_sec": 3.044768396290866
+  },
+  {
+    "level": 2,
+    "tts_change_est_pct": 4.731153537425472,
+    "ci90": [
+      3.4699042873123496,
+      5.850732130526435
+    ],
+    "tts_change_oracle_pct": 4.525434223188487,
+    "est_minus_oracle_pct": 0.20571931423698514,
+    "gap_ci90": [
+      -0.28592012657041,
+      0.6505137645876746
+    ],
+    "retained_share": null,
+    "days_est_beats_A2L0_est": 0,
+    "worst_ramp_wait_est": 1.8138949904420312,
+    "worst_ramp_wait_oracle": 1.6546610029977198,
+    "spend_est": 0.0,
+    "state_err_vehkm": 9.246211828043062,
+    "est_sec": 2.9841358954256227
+  },
+  {
+    "level": 3,
+    "tts_change_est_pct": 1.6653032851397653,
+    "ci90": [
+      0.9082576590504475,
+      2.374735621541156
+    ],
+    "tts_change_oracle_pct": 1.153957021795114,
+    "est_minus_oracle_pct": 0.5113462633446512,
+    "gap_ci90": [
+      0.054608303930132024,
+      0.9642667046228977
+    ],
+    "retained_share": null,
+    "days_est_beats_A2L0_est": 2,
+    "worst_ramp_wait_est": 0.9507696230567617,
+    "worst_ramp_wait_oracle": 0.47860814849228495,
+    "spend_est": 11748.014859713676,
+    "state_err_vehkm": 9.318410656104485,
+    "est_sec": 3.428087835962122
+  },
+  {
+    "level": 4,
+    "tts_change_est_pct": 1.629004797204597,
+    "ci90": [
+      0.8290337418513178,
+      2.395587610134893
+    ],
+    "tts_change_oracle_pct": 1.2297778217247715,
+    "est_minus_oracle_pct": 0.39922697547982555,
+    "gap_ci90": [
+      -0.30001656963300843,
+      1.2235568137282025
+    ],
+    "retained_share": null,
+    "days_est_beats_A2L0_est": 1,
+    "worst_ramp_wait_est": 1.2443591257881537,
+    "worst_ramp_wait_oracle": 0.4394079809572505,
+    "spend_est": 12827.895466124992,
+    "state_err_vehkm": 8.935935167223215,
+    "est_sec": 3.611138573559848
+  }
+]

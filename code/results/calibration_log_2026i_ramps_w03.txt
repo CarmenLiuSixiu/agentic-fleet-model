@@ -1,0 +1,122 @@
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:80: RuntimeWarning: Mean of empty slice
+  return np.nanmean(np.array(arr, dtype=float), 0), len(arr)
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:80: RuntimeWarning: Mean of empty slice
+  return np.nanmean(np.array(arr, dtype=float), 0), len(arr)
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:80: RuntimeWarning: Mean of empty slice
+  return np.nanmean(np.array(arr, dtype=float), 0), len(arr)
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:80: RuntimeWarning: Mean of empty slice
+  return np.nanmean(np.array(arr, dtype=float), 0), len(arr)
+/Users/carmenliu/Desktop/Study2026/pems_agentic/.venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:80: RuntimeWarning: Mean of empty slice
+  return np.nanmean(np.array(arr, dtype=float), 0), len(arr)
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:80: RuntimeWarning: Mean of empty slice
+  return np.nanmean(np.array(arr, dtype=float), 0), len(arr)
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:280: RuntimeWarning: Mean of empty slice
+  blocks = np.nanmean(T["Rtr"].reshape(24, 3, -1), 1)               # 24 x R
+/Users/carmenliu/Desktop/Study2026/pems_agentic/src/calibrate_flow.py:238: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  qmax = max(qmax, float((q / storage).max()))
+{'iter': 0, 'tau': 25.0, 'mae_v_vis': 40.73301696777344, 'mae_q_vis': 1109.905029296875, 'max_q_over_storage': 81.79, 'sec': 1.2}
+{'iter': 10, 'tau': 23.6, 'mae_v_vis': 15.787327766418457, 'mae_q_vis': 925.8111572265625, 'max_q_over_storage': 7.57, 'sec': 14.0}
+{'iter': 20, 'tau': 22.2, 'mae_v_vis': 12.711532592773438, 'mae_q_vis': 962.564208984375, 'max_q_over_storage': 1.43, 'sec': 26.9}
+{'iter': 30, 'tau': 20.8, 'mae_v_vis': 12.338891983032227, 'mae_q_vis': 974.6973266601562, 'max_q_over_storage': 0.72, 'sec': 39.6}
+{'iter': 40, 'tau': 19.4, 'mae_v_vis': 11.920609474182129, 'mae_q_vis': 870.3268432617188, 'max_q_over_storage': 1.47, 'sec': 52.6}
+{'iter': 50, 'tau': 18.1, 'mae_v_vis': 11.706914901733398, 'mae_q_vis': 784.07080078125, 'max_q_over_storage': 3.76, 'sec': 65.5}
+{'iter': 60, 'tau': 16.7, 'mae_v_vis': 11.915611267089844, 'mae_q_vis': 799.8859252929688, 'max_q_over_storage': 1.46, 'sec': 78.3}
+{'iter': 70, 'tau': 15.3, 'mae_v_vis': 11.912837982177734, 'mae_q_vis': 781.9216918945312, 'max_q_over_storage': 1.55, 'sec': 91.2}
+{'iter': 80, 'tau': 13.9, 'mae_v_vis': 11.867201805114746, 'mae_q_vis': 746.2774658203125, 'max_q_over_storage': 1.6, 'sec': 104.1}
+{'iter': 90, 'tau': 12.5, 'mae_v_vis': 11.6419038772583, 'mae_q_vis': 716.2066650390625, 'max_q_over_storage': 1.73, 'sec': 117.0}
+{'iter': 100, 'tau': 11.1, 'mae_v_vis': 12.07335090637207, 'mae_q_vis': 713.0852661132812, 'max_q_over_storage': 1.82, 'sec': 129.9}
+{'iter': 110, 'tau': 9.7, 'mae_v_vis': 12.214996337890625, 'mae_q_vis': 695.5911865234375, 'max_q_over_storage': 1.74, 'sec': 143.0}
+{'iter': 120, 'tau': 8.3, 'mae_v_vis': 12.385442733764648, 'mae_q_vis': 669.2589721679688, 'max_q_over_storage': 2.3, 'sec': 155.8}
+{'iter': 130, 'tau': 6.9, 'mae_v_vis': 12.346185684204102, 'mae_q_vis': 658.576904296875, 'max_q_over_storage': 2.18, 'sec': 168.6}
+{'iter': 140, 'tau': 5.6, 'mae_v_vis': 12.276216506958008, 'mae_q_vis': 654.5841064453125, 'max_q_over_storage': 2.24, 'sec': 181.4}
+{'iter': 150, 'tau': 4.2, 'mae_v_vis': 12.736064910888672, 'mae_q_vis': 644.62060546875, 'max_q_over_storage': 1.7, 'sec': 194.2}
+{'iter': 160, 'tau': 2.8, 'mae_v_vis': 12.751864433288574, 'mae_q_vis': 628.409912109375, 'max_q_over_storage': 1.66, 'sec': 207.2}
+{'iter': 170, 'tau': 2.0, 'mae_v_vis': 12.867534637451172, 'mae_q_vis': 622.3021240234375, 'max_q_over_storage': 1.82, 'sec': 220.0}
+{'iter': 180, 'tau': 2.0, 'mae_v_vis': 12.845710754394531, 'mae_q_vis': 608.0277709960938, 'max_q_over_storage': 1.54, 'sec': 232.8}
+{'iter': 190, 'tau': 2.0, 'mae_v_vis': 12.88203239440918, 'mae_q_vis': 621.9507446289062, 'max_q_over_storage': 1.43, 'sec': 245.6}
+{'iter': 200, 'tau': 2.0, 'mae_v_vis': 12.82812213897705, 'mae_q_vis': 615.4786987304688, 'max_q_over_storage': 1.58, 'sec': 258.5}
+{'iter': 210, 'tau': 2.0, 'mae_v_vis': 12.703368186950684, 'mae_q_vis': 588.903564453125, 'max_q_over_storage': 1.76, 'sec': 272.0}
+{'iter': 220, 'tau': 2.0, 'mae_v_vis': 12.56362533569336, 'mae_q_vis': 579.7540893554688, 'max_q_over_storage': 1.64, 'sec': 284.8}
+{'iter': 230, 'tau': 2.0, 'mae_v_vis': 12.973960876464844, 'mae_q_vis': 592.6646728515625, 'max_q_over_storage': 2.46, 'sec': 297.5}
+{'iter': 240, 'tau': 2.0, 'mae_v_vis': 12.882896423339844, 'mae_q_vis': 583.6319580078125, 'max_q_over_storage': 1.41, 'sec': 310.3}
+{'iter': 250, 'tau': 2.0, 'mae_v_vis': 12.62304973602295, 'mae_q_vis': 568.156005859375, 'max_q_over_storage': 1.51, 'sec': 323.5}
+{'iter': 260, 'tau': 2.0, 'mae_v_vis': 12.502066612243652, 'mae_q_vis': 553.31103515625, 'max_q_over_storage': 1.55, 'sec': 336.4}
+{'iter': 270, 'tau': 2.0, 'mae_v_vis': 12.266389846801758, 'mae_q_vis': 546.5385131835938, 'max_q_over_storage': 1.64, 'sec': 349.1}
+{'iter': 280, 'tau': 2.0, 'mae_v_vis': 12.83666706085205, 'mae_q_vis': 558.2921142578125, 'max_q_over_storage': 1.71, 'sec': 362.0}
+{'iter': 290, 'tau': 2.0, 'mae_v_vis': 12.537955284118652, 'mae_q_vis': 554.9894409179688, 'max_q_over_storage': 2.27, 'sec': 374.7}
+{'iter': 299, 'tau': 2.0, 'mae_v_vis': 12.60136890411377, 'mae_q_vis': 542.7046508789062, 'max_q_over_storage': 1.58, 'sec': 386.2}
+{
+  "source": "2026ramps",
+  "split": "interleave",
+  "days_dropped": [
+    "2026-04-21",
+    "2026-04-22",
+    "2026-04-23",
+    "2026-04-24"
+  ],
+  "days_test": [
+    "2026-04-03",
+    "2026-04-08",
+    "2026-04-13",
+    "2026-04-16",
+    "2026-04-27",
+    "2026-04-30"
+  ],
+  "w_q": 0.3,
+  "n_train_days": 12,
+  "n_test_days": 6,
+  "n_hidden": 11,
+  "n_valid_detectors": 42,
+  "boundary": 402364,
+  "speed_mae": {
+    "wm_vis_train": 12.683454658475762,
+    "wm_vis_test": 11.519511882808217,
+    "wm_hidden_test": 15.795968838927482,
+    "interp_hidden_test": 6.559086355222384,
+    "train_profile_hidden_test": 3.833232533333333
+  },
+  "flow_mae_vehh": {
+    "wm_vis_train": 543.1926700879169,
+    "wm_vis_test": 524.0346690571009,
+    "wm_hidden_test": 787.0861321651574,
+    "interp_hidden_test": 613.8195570728242
+  },
+  "route_tt_mae_min_test": {
+    "wm": {
+      "A": 2.8732631889664964,
+      "B": 2.441528529017588
+    },
+    "train_profile": {
+      "A": 0.4148803741513502,
+      "B": 0.6718249229321697
+    }
+  },
+  "ramps": {
+    "n_onramp_targets": 21,
+    "n_hidden": 6,
+    "n_exit_targets": 6,
+    "n_exit_hidden": 2,
+    "onramp_mae_vis_train": 191.94274406786317,
+    "onramp_mae_vis_test": 192.27247848863954,
+    "onramp_mae_hidden_test": 169.5393021195023,
+    "onramp_train_profile_hidden_test": 31.30324074074074,
+    "exit_mae_vis_train": 119.72089311811659,
+    "exit_mae_hidden_test": 278.8170329199897,
+    "exit_train_profile_hidden_test": 38.5625
+  },
+  "vf": [
+    102.7294921875,
+    107.35428619384766
+  ],
+  "b0": -0.17357395589351654,
+  "b1": 0.4653918147087097,
+  "max_ramp_queue_over_storage_no_control": 1.5824230909347534,
+  "cap_mult_range": [
+    0.63246750831604,
+    1.1479731798171997
+  ],
+  "seconds": 386.5
+}

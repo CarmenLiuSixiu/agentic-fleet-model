@@ -1,0 +1,198 @@
+{
+ "tts_vs_A0": [
+  {
+   "agent": "A0",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": 0.0,
+   "ci90_lo": 0.0,
+   "ci90_hi": 0.0
+  },
+  {
+   "agent": "A0",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": 0.0,
+   "ci90_lo": 0.0,
+   "ci90_hi": 0.0
+  },
+  {
+   "agent": "A0",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": 0.0,
+   "ci90_lo": 0.0,
+   "ci90_hi": 0.0
+  },
+  {
+   "agent": "A1",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": 0.5575760640272935,
+   "ci90_lo": 0.4686874924345073,
+   "ci90_hi": 0.6449071892638621
+  },
+  {
+   "agent": "A1",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": 0.5792170473898111,
+   "ci90_lo": 0.4629824921439405,
+   "ci90_hi": 0.6864172738505725
+  },
+  {
+   "agent": "A1",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": 0.5359350806647759,
+   "ci90_lo": 0.39243563107771384,
+   "ci90_hi": 0.6778605462272067
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": -0.1721938203753753,
+   "ci90_lo": -0.22893839252833453,
+   "ci90_hi": -0.12145230911470292
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": -0.13263468875909049,
+   "ci90_lo": -0.183115226912887,
+   "ci90_hi": -0.0888138459033124
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": -0.21175295199166017,
+   "ci90_lo": -0.29680799259840557,
+   "ci90_hi": -0.1266979113849148
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.3,
+   "days": "all",
+   "tts_change_pct": -12.797064507535467,
+   "ci90_lo": -13.348087013465854,
+   "ci90_hi": -12.255779087295158
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.3,
+   "days": "normal",
+   "tts_change_pct": -13.374607418629614,
+   "ci90_lo": -14.137597050222592,
+   "ci90_hi": -12.677006571026535
+  },
+  {
+   "agent": "A2",
+   "level": 0,
+   "kappa": 0.3,
+   "days": "incident",
+   "tts_change_pct": -12.21952159644132,
+   "ci90_lo": -12.803484072718367,
+   "ci90_hi": -11.635559120164269
+  },
+  {
+   "agent": "A2",
+   "level": 1,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": -0.4730647928100848,
+   "ci90_lo": -0.715383669188799,
+   "ci90_hi": -0.2554099255426521
+  },
+  {
+   "agent": "A2",
+   "level": 1,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": -0.4102057353476713,
+   "ci90_lo": -0.8869533179114892,
+   "ci90_hi": -0.07730296232325354
+  },
+  {
+   "agent": "A2",
+   "level": 1,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": -0.5359238502724984,
+   "ci90_lo": -0.7498293115020522,
+   "ci90_hi": -0.31678420437350074
+  },
+  {
+   "agent": "A2",
+   "level": 2,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": -3.6919417041155427,
+   "ci90_lo": -4.612770547513772,
+   "ci90_hi": -2.7678603084300053
+  },
+  {
+   "agent": "A2",
+   "level": 2,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": -3.209494346066137,
+   "ci90_lo": -4.077630019896626,
+   "ci90_hi": -2.3432219769533242
+  },
+  {
+   "agent": "A2",
+   "level": 2,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": -4.1743890621649475,
+   "ci90_lo": -5.633079430757704,
+   "ci90_hi": -2.5251502369187255
+  },
+  {
+   "agent": "A2",
+   "level": 3,
+   "kappa": 0.0,
+   "days": "all",
+   "tts_change_pct": -3.1454725091765483,
+   "ci90_lo": -3.875484026222042,
+   "ci90_hi": -2.379234808027735
+  },
+  {
+   "agent": "A2",
+   "level": 3,
+   "kappa": 0.0,
+   "days": "normal",
+   "tts_change_pct": -2.8901285901347387,
+   "ci90_lo": -3.6104995599970677,
+   "ci90_hi": -2.1367817781758407
+  },
+  {
+   "agent": "A2",
+   "level": 3,
+   "kappa": 0.0,
+   "days": "incident",
+   "tts_change_pct": -3.400816428218358,
+   "ci90_lo": -4.733072316250135,
+   "ci90_hi": -2.0276642296771987
+  },
+  {
+   "agent": "A2",
+   "level": 3,
+   "kappa": 0.3,
+   "days": "all",
+   "tts_change_pct": -16.40475210726331,
+   "ci90_lo": -17.258
