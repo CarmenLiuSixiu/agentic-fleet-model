@@ -13,3 +13,7 @@ code/nyc/fetch_log.txt
 # large binary results (regenerable; may be shared separately)
 code/results/*.npz
 code/results/*.pt
+# top-level shortcuts to code/ (local convenience only)
+/docs
+/figs
+/results
